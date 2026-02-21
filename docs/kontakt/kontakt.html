@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <link rel="stylesheet" href="kontakt.css">
+<body>
+  
+  <form id="contact-form">
+    <input class="pole" type="text" name="imie" placeholder="Imie" required>
+    <input class="pole" type="text" name="nazwisko" placeholder="Nazwisko" required>
+    <input class="pole" type="text" name="klasa" placeholder="Klasa" required>
+    <textarea class="pole" name="uwagi" placeholder="Uwagi" required></textarea><br>
+
+    <!-- reCAPTCHA -->
+    <!--<div class="g-recaptcha" data-sitekey="SITE_KEY"></div>  na życzenie klienta -->
+
+    <button type="submit" class="submit">Wyślij</button>
+  </form>
+  
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script src="test.js"></script>
+
+</body>
+</html>

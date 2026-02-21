@@ -16,11 +16,17 @@
   <header>
     <h1>Szkolny Turniej FC26</h1>
 
-
     <nav>
+    <script>form.style.display = "none";</script>
     <div>
-      <a class="mail" href="mailto:franekza10@gmail.com">Zapisz się tutaj!</a><br><br>
-      <a>lub pod adresem: zso.kontakt@bobowa.eu</a>
+      
+      <button class="mail" id="openMail">Zapisz się Teraz!</button><br><br>
+        <div id="form" class="form">
+          <div class="content_form">
+            <iframe src="kontakt/kontakt.html" width="200px" height="200px"></iframe>
+            <span id="closeBtn" class="close">&times;</span>
+          </div>
+        </div>
     </div>  
     </nav>
   </header>
@@ -46,5 +52,6 @@
   <footer>
     <p>Wykonano: C. Kanarek &copy;ZSO Bobowa</p>
   </footer>
+ <script src="main.js"></script>
 </body>
 </html>
